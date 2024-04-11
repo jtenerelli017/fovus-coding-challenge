@@ -1,15 +1,9 @@
-import TextInput from "./components/server/TextInput";
-import FileInput from "./components/server/FileInput";
-import SubmitButton from "./components/server/SubmitButton";
+import TextFileSubmit from "./components/client/TextFileSubmit";
 
 export default function Home() {
   return (
     <main>
-      <form>
-        <TextInput />
-        <FileInput />
-        <SubmitButton />
-      </form>
+      <TextFileSubmit />
     </main>
   );
 }
