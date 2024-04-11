@@ -8,7 +8,7 @@ export default function Home() {
   }, []);
   const [posts, setPosts] = useState([]);
   return (
-    <div>
+    <main>
       <form>
         <label htmlFor="tinput">Text input: </label>
         <input type="text" id="tinput" name="tinput"></input><br></br><br></br>
@@ -16,6 +16,6 @@ export default function Home() {
         <input type="file" id="finput" name="finput"></input><br></br><br></br>
         <input type="submit" value="Submit"></input>
       </form>
-    </div>
+    </main>
   );
 }
